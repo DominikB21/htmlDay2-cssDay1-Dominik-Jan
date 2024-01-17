@@ -4,42 +4,56 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Your local Newspaper</title>
+  <style>
+    .header {
+      background-color: red;
+      position: sticky;
+      border-radius: 15px;
+      text-align: center;
+      display: grid;
+      align-items: center;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 5px;
+      height: 100px;
+    }
+
+    .newsArticles img {
+      height: 250px;
+    }
+  </style>
 </head>
 <body>
 
-  <table>
-    <tr>
-     <th>
-      <h1>Your local newspaper</h1>
-    </th>
-     <th><img height="80px" src="https://pngimg.com/uploads/newspaper/newspaper_PNG18.png" alt="Newspaper logo"></th>
-    </tr>
-  </table>
+  <div class="header">
+        <h1>Your local newspaper</h1>
+       <img height="80px" src="https://pngimg.com/uploads/newspaper/newspaper_PNG18.png" alt="Newspaper logo">
+  </div>
 
-  <table border="1" width="1280px">
-    <tr>
-     <th>
-      <h2>Article 1</h2>
-      <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita cum nam id omnis, odit veritatis non distinctio, laudantium itaque suscipit vitae quod mollitia. Est, officia.</td>
-    </th>
-    </tr>
 
-    <tr>
-      <td><img src="#" alt="Image of News1"></td>
-    </tr> 
-
-    <tr>
-      <th>
-        <h2>Article 2</h2>
-        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita cum nam id omnis, odit veritatis non distinctio, laudantium itaque suscipit vitae quod mollitia. Est, officia.</td>
+  <div class="newsArticles">
+    <table border="0" width="1280px">
+      <tr>
+       <th>
+        <h2>Öffi-Chaos bei der U1 – Tausende Fahrgäste sitzen fest</h2>
       </th>
-     </tr>
- 
-     <tr>
-       <td><img src="#" alt="Image of News2"></td>
-     </tr>
-
-  </table>
+      </tr>
+      <tr>
+        <td><img src="https://heute-at-prod-images.imgix.net/2024/01/17/57b8ec64-f5e0-42bd-be92-cbdf5f314adc.jpeg?rect=79%2C0%2C1890%2C1063&w=768&auto=format%2Ccompress" 
+          alt="Foto von U1"></td>
+          <td>Am Mittwochabend sitzen viele Wiener in einigen U-Bahn Stationen der U1 fest. Wie die Wiener Linien online bestätigen, fährt die Linie  derzeit nur zwischen Alaudagasse und Stephansplatz beziehungsweise Donauinsel und Leopoldau.</td>
+      </tr>
+      <tr>
+        <th>
+          <h2>Viele verletzte Fahrgäste bei Crash von Linienbussen</h2>
+        </th>
+       </tr>
+       <tr>
+         <td><img src="https://heute-at-prod-images.imgix.net/2024/01/17/baab0aeb-7e6a-4bca-958b-9cc64098a49a.jpeg?rect=0%2C0%2C4000%2C2250&w=768&auto=format%2Ccompress" 
+          alt="Foto von Bus-Crash"></td>
+          <td>Laut Polizei fuhr ein 59-Jähriger um 11 Uhr mit einem Omnibus auf der B125 in Richtung Gallneukirchen (Bez. Urfahr-Umgebung). 16 Personen befanden sich im Bus. Währenddessen fuhr ein 48-Jähriger mit einem Linienbus – ein Passagier war darin – in die entgegengesetzte Fahrtrichtung. Wenig später kollidierten beide Busse im Zentrum von Unterweitersdorf in einer Kurve miteinander. </td>
+       </tr>
+    </table>
+  </div>
 
 </body>
 </html>
