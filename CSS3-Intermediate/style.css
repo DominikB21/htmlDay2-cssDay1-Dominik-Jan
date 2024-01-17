@@ -1,0 +1,30 @@
+div {
+  border: solid;
+  border-width: 5px;
+}
+
+h1 {
+  color: blue;
+}
+
+#third > span {
+  
+}
+
+.right p {
+  
+}
+
+img {
+  height: 300px;
+  width: 300px;
+}
+
+.container:last-child {
+  
+}
+
+#fith p {
+  color: rgb(16, 119, 179);
+  font-size: 18px;
+}
